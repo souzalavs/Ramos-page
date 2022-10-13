@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif; 
+    background: #160606;
+}
+
+.logo {
+    position: fixed;
+    display: inline-block;
+    margin-left: 2.5vw;
+    top: 0%;
+}
+
+.galho-cima {
+    display: inline-block;
+    width: 25vw;
+    height: auto;
+    position: fixed;
+    right: 0%;
+}
+.conteudo-centro, .conteudo-centro-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 25vw;
+    width: 50vw;
+    z-index: 10;
+}
+
+.conteudo-centro {
+    top: 6vw; 
+}
+
+.logo-centro {
+    padding-bottom: 0px;
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+}
+
+.links {
+    text-align: center;
+    
+}
+
+.links li, .redirecionamento li {
+    border: 1.9px solid #d49f9f;
+    border-radius: 30px;
+    margin: 7px 0;
+}
+
+.links li {
+    padding: 7px 110px;
+}
+
+.links li:hover {
+    background-color: rgba(245, 222, 179, 0.301);
+}
+
+.galho-baixo {
+    display: inline-block;
+    width: auto;
+    height: 80vh;
+    position: fixed;
+    bottom: 0%;
+}
+
+.conteudo-centro-email {
+    top: 13vw;
+    color: antiquewhite;
+}
+
+p {
+   padding: 9px;
+   font-size: 120%;
+}
+
+.email {
+    padding-bottom: 8px;
+}
+
+.redirecionamento li {
+    padding: 5px 14px;
+    font-size: 110%;
+}
+
+.redirecionamento li:hover {
+    background-color: rgba(245, 222, 179, 0.301);
+}
+
+.mensagem {
+    color: #d49f9f;
+    font-weight: 550;
+}
